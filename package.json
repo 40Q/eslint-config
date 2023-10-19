@@ -1,0 +1,11 @@
+{
+	"name": "@40q/eslint-config",
+	"version": "1.0.0",
+	"description": "40q eslint configuration",
+	"main": "index.js",
+	"peerDependencies": {
+		"eslint": "^8.51.0"
+  },
+	"author": "40q <info@40q.agency>",
+	"license": "ISC"
+}
