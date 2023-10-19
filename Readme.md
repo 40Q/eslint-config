@@ -13,8 +13,8 @@ npm install --save-dev @40q/eslint-config
 ```
 {
   "extends": [
-	"@40q/eslint-config"
-	]
+    "@40q/eslint-config"
+  ]
 }
 
 ```
