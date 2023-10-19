@@ -6,6 +6,10 @@
 	"peerDependencies": {
 		"eslint": "^8.51.0"
   },
-	"author": "40q <info@40q.agency>",
-	"license": "ISC"
+	"author": "40q <info@40q.agency> (https://40q.agency/)",
+	"license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/40Q/eslint-config.git"
+  }
 }
