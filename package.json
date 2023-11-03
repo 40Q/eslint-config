@@ -1,15 +1,20 @@
 {
-	"name": "@40q/eslint-config",
-	"version": "1.0.0",
-	"description": "40q eslint configuration",
-	"main": "index.js",
-	"peerDependencies": {
-		"eslint": "^8.51.0"
-  },
-	"author": "40q <info@40q.agency> (https://40q.agency/)",
-	"license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/40Q/eslint-config.git"
-  }
+    "name": "@40q/eslint-config",
+    "version": "1.0.0",
+    "description": "40q eslint configuration",
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": "^8.51.0",
+        "@typescript-eslint/eslint-plugin": "^6.9.1",
+        "@typescript-eslint/parser": "^6.9.1"
+    },
+    "scripts": {
+        "deploy": "yarn publish --access public"
+    },
+    "author": "40q <info@40q.agency> (https://40q.agency/)",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/40Q/eslint-config.git"
+    }
 }
