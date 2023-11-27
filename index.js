@@ -1,17 +1,22 @@
 module.exports = {
-  plugins: [
-    '@typescript-eslint'
-  ],
+  parser: "@typescript-eslint/parser",
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    '@40q/eslint-config',
-    'prettier',
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
+  plugins: [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  parserOptions: {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  },
   rules: {
-    'semi': 'error',
-    'quotes': ['error', 'double'],
-    'indent': ['error', 2]
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off"
   }
-};
+}
