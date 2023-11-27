@@ -1,6 +1,6 @@
 {
     "name": "@40q/eslint-config",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "40q eslint configuration",
     "main": "index.js",
     "peerDependencies": {
@@ -9,8 +9,8 @@
         "eslint": "^8.51.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.1",
-        "prettier": "^3.1.0",
-        "eslint-plugin-react": "^7.33.0"
+        "eslint-plugin-react": "^7.33.0",
+        "prettier": "^3.1.0"
     },
     "scripts": {
         "deploy": "yarn publish --access public"
