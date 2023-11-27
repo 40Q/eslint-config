@@ -6,7 +6,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    '@40q/eslint-config'
+    '@40q/eslint-config',
+    'prettier',
   ],
   rules: {
     'semi': 'error',
