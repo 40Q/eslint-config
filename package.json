@@ -1,6 +1,6 @@
 {
     "name": "@40q/eslint-config",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "40q eslint configuration",
     "main": "index.js",
     "peerDependencies": {
